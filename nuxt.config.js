@@ -44,12 +44,20 @@ module.exports = {
     ['nuxt-i18n', {
       locales: [
         {
+          code: 'tw',
+          iso: 'zh-TW'
+        },
+        {
+          code: 'ja',
+          iso: 'ja'
+        },
+        {
           code: 'en',
           iso: 'en-US'
         },
         {
-          code: 'tw',
-          iso: 'zh-TW'
+          code: 'fr',
+          iso: 'fr'
         }
       ],
       defaultLocale: 'tw',
