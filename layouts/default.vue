@@ -2,7 +2,7 @@
 <template>
 <main>
   <navbar />
-  <nuxt/>
+  <nuxt />
 </main>
 </template>
 

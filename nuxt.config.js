@@ -2,10 +2,6 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
-
-  /*
-  ** Headers of the page
-  */
   head: {
     title: pkg.name,
     meta: [
@@ -17,27 +13,12 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
-
-  /*
-  ** Customize the progress-bar color
-  */
   loading: { color: '#fff' },
-
-  /*
-  ** Global CSS
-  */
-  css: [
-  ],
-
-  /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-  ],
-
-  /*
-  ** Nuxt.js modules
-  */
+  // Global CSS
+  css: [],
+  // Plugins to load before mounting the App
+  plugins: [],
+  // Nuxt.js modules
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
@@ -57,31 +38,23 @@ module.exports = {
         },
         {
           code: 'fr',
-          iso: 'fr'
+          iso: 'fr-FR'
         }
       ],
       defaultLocale: 'tw',
       vueI18nLoader: true,
       detectBrowserLanguage: {
         useCookie: true,
-        cookieKey: 'i18n_redirected'
+        cookieKey: 'nuxt_i18n_redirected'
       }
     }]
   ],
-  /*
-  ** Axios module configuration
-  */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
-  },
-
-  /*
-  ** Build configuration
-  */
+  // Axios module configuration
+  // See https://github.com/nuxt-community/axios-module#options
+  axios: {},
+  // Build configuration
   build: {
-    /*
-    ** You can extend webpack config here
-    */
+    // You can extend webpack config here
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
