@@ -80,7 +80,7 @@
 }
 </i18n>
 <template>
-<div class="page tw-idg-to-xi">
+<div class="page idg-xi">
   <h1>{{ $t('title') }}</h1>
   <div class="markdown" v-html="markdown($t('1-1'))" />
   <div class="markdown" v-html="markdown($t('1-2'))" />
@@ -109,7 +109,7 @@ export default {
 </script>
 
 <style lang="scss">
-.page.tw-idg-to-xi {
+.page.idg-xi {
 
 }
 </style>
