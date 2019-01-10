@@ -3,6 +3,9 @@
 <main>
   <navbar />
   <nuxt />
+  <footer>
+    <a href="https://github.com/chihaoyo/speak-up-for-taiwan/" target="_blank">GitHub</a>
+  </footer>
 </main>
 </template>
 
