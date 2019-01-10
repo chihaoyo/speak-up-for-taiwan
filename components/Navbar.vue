@@ -15,7 +15,13 @@
 
 <style lang="scss">
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
+  border-bottom: 0.25rem black solid;
+  background-color: rgba(white, 0.90);
   > .home {
     flex-grow: 1;
   }
@@ -23,9 +29,5 @@
     flex-grow: 0;
     display: flex;
   }
-}
-.button {
-  display: inline-block;
-  padding: 0.5rem;
 }
 </style>

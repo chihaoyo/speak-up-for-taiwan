@@ -1,7 +1,7 @@
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.625;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -9,7 +9,7 @@ html {
   box-sizing: border-box;
   &[lang="en-US"],
   &[lang="fr-FR"] {
-    line-height: 1.375;
+    line-height: 1.5;
   }
 }
 
@@ -21,11 +21,34 @@ html {
 }
 
 a, a:hover, a:active, a:visited {
+  color: blue;
   text-decoration: none;
 }
-
+h1 {
+  font-size: 2.25rem;
+  margin: 1em 0;
+}
 .markdown {
   > p {
-    margin: 1rem 0;
+    font-size: 1.125rem;
+    margin: 1em 0;
   }
+  > h2 {
+    font-size: 1.75rem;
+    margin: 1em 0 0.5em;
+  }
+  > h3 {
+    font-size: 1.25rem;
+    margin: 1em 0 0.5em;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.page {
+  padding-top: 4rem;
 }

@@ -81,23 +81,25 @@
 </i18n>
 <template>
 <div class="page idg-xi">
-  <h1>{{ $t('title') }}</h1>
-  <div class="markdown" v-html="markdown($t('1-1'))" />
-  <div class="markdown" v-html="markdown($t('1-2'))" />
-  <div class="markdown" v-html="markdown($t('1-3'))" />
-  <div class="markdown" v-html="markdown($t('2-1'))" />
-  <div class="markdown" v-html="markdown($t('2-2'))" />
-  <div class="markdown" v-html="markdown($t('2-3'))" />
-  <div class="markdown" v-html="markdown($t('3-1'))" />
-  <div class="markdown" v-html="markdown($t('3-2'))" />
-  <div class="markdown" v-html="markdown($t('3-3'))" />
-  <div class="markdown" v-html="markdown($t('4-1'))" />
-  <div class="markdown" v-html="markdown($t('4-2'))" />
-  <div class="markdown" v-html="markdown($t('4-3'))" />
-  <div class="markdown" v-html="markdown($t('5-1'))" />
-  <div class="markdown" v-html="markdown($t('5-2'))" />
-  <div class="markdown" v-html="markdown($t('6-1'))" />
-  <div class="markdown" v-html="markdown($t('6-2'))" />
+  <div class="content">
+    <h1>{{ $t('title') }}</h1>
+    <div class="markdown" v-html="markdown($t('1-1'))" />
+    <div class="markdown" v-html="markdown($t('1-2'))" />
+    <div class="markdown" v-html="markdown($t('1-3'))" />
+    <div class="markdown" v-html="markdown($t('2-1'))" />
+    <div class="markdown" v-html="markdown($t('2-2'))" />
+    <div class="markdown" v-html="markdown($t('2-3'))" />
+    <div class="markdown" v-html="markdown($t('3-1'))" />
+    <div class="markdown" v-html="markdown($t('3-2'))" />
+    <div class="markdown" v-html="markdown($t('3-3'))" />
+    <div class="markdown" v-html="markdown($t('4-1'))" />
+    <div class="markdown" v-html="markdown($t('4-2'))" />
+    <div class="markdown" v-html="markdown($t('4-3'))" />
+    <div class="markdown" v-html="markdown($t('5-1'))" />
+    <div class="markdown" v-html="markdown($t('5-2'))" />
+    <div class="markdown" v-html="markdown($t('6-1'))" />
+    <div class="markdown" v-html="markdown($t('6-2'))" />
+  </div>
 </div>
 </template>
 
@@ -111,5 +113,13 @@ export default {
 <style lang="scss">
 .page.idg-xi {
   font-size: 20px;
+  > .content {
+    max-width: 36rem;
+    margin: 0 1rem;
+    @media (min-width: 38rem) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 </style>
