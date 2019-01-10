@@ -19,8 +19,17 @@
 <div class="page index">
   <h1 style="display: none;">Speak up for Taiwan. #SpeakUpForTaiwan</h1>
   <ul>
-    <li><nuxt-link :to="localePath('idg-xi')">{{ $t('idg-xi') }}</nuxt-link>
-    </li>
+    <li><nuxt-link :to="localePath('idg-xi')">{{ $t('idg-xi') }}</nuxt-link></li>
   </ul>
 </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: '#SpeakUpForTaiwan'
+    }
+  }
+}
+</script>

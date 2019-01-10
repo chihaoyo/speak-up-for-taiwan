@@ -2,8 +2,8 @@
 <i18n>
 {
   "tw": {
-    "title": "# 台灣原住民族致中國習近平主席",
-    "subtitle": "#### 台灣[原住民族歷史正義與轉型正義委員會](https://indigenous-justice.president.gov.tw/)代表十七族之二十二位代表及委員會外代表八族之九位代表共同聲明",
+    "title": "台灣原住民族致中國習近平主席",
+    "subtitle": "台灣[原住民族歷史正義與轉型正義委員會](https://indigenous-justice.president.gov.tw/)代表十七族之二十二位代表及委員會外代表八族之九位代表共同聲明",
     "source-label": "來源",
     "source-link": "https://www.facebook.com/IndigenousSbalay/posts/2020282421360818",
     "1-1": "## 習近平先生，你不認識我們，因此你不認識台灣。",
@@ -24,8 +24,8 @@
     "6-2": "Omi Wilang 歐蜜･偉浪（泰雅族）、王商益 Kaisanan Ahuan（道卡斯族）、乃俊廷（巴布薩族）、張麗盆（拍瀑拉族）、潘明燈（拍瀑拉族）、巫瑞晞（阿里坤族）、胡雋婕 Snglang（羅亞族）、潘隆川（噶哈巫族）、希婻･瑪飛洑（達悟族）"
   },
   "ja": {
-    "title": "# 台湾の原住民族から中国国家主席習近平へ",
-    "subtitle": "#### 台湾[原住民族歴史正義と転型正義委員会](https://indigenous-justice.president.gov.tw/)からの17原住民族22人代表と委員会の外の8原住民族9人代表の共同声明",
+    "title": "台湾の原住民族から中国国家主席習近平へ",
+    "subtitle": "台湾[原住民族歴史正義と転型正義委員会](https://indigenous-justice.president.gov.tw/)からの17原住民族22人代表と委員会の外の8原住民族9人代表の共同声明",
     "source-label": "來源",
     "source-link": "https://www.facebook.com/IndigenousSbalay/photos/a.1549619535093778/2023061521082908/",
     "1-1": "## 習近平さま、あなたは私たちのことを知りません、だからあなたは台湾のことを知りません。",
@@ -46,8 +46,8 @@
     "6-2": "Omi Wilang 歐蜜･偉浪（Atayal）、王商益 Kaisanan Ahuan（Taokas）、乃俊廷（Babuza）、張麗盆（Papora）、潘明燈（Papora）、巫瑞晞（Arikun）、胡雋婕 Snglang（Lloa）、潘隆川（Kaxabu）、希婻･瑪飛洑（Tao/Yami）"
   },
   "en": {
-    "title": "# Indigenous Peoples of Taiwan to President Xi Jinping of China",
-    "subtitle": "#### Declaration signed by 22 members representing 17 indigenous peoples in the [Indigenous Historical Justice and Transitional Justice Committee](https://indigenous-justice.president.gov.tw/) of Taiwan, and subscribed by 9 promenent members of 8 more indigenous peoples.",
+    "title": "Indigenous Peoples of Taiwan to President Xi Jinping of China",
+    "subtitle": "Declaration signed by 22 members representing 17 indigenous peoples in the [Indigenous Historical Justice and Transitional Justice Committee](https://indigenous-justice.president.gov.tw/) of Taiwan, and subscribed by 9 promenent members of 8 more indigenous peoples.",
     "source-label": "Source",
     "source-link": "https://medium.com/@chihaoyo/4469d1a3bde6",
     "1-1": "## Mr. Xi Jinping, you do not know us, so you do not know Taiwan.",
@@ -68,8 +68,8 @@
     "6-2": "Omi Wilang 歐蜜･偉浪 (Atayal), 王商益 Kaisanan Ahuan (Taokas), 乃俊廷 (Babuza), 張麗盆 (Papora), 潘明燈 (Papora), 巫瑞晞 (Arikun), 胡雋婕 Snglang (Lloa), 潘隆川 (Kaxabu), 希婻･瑪飛洑 (Tao/Yami)"
   },
   "fr": {
-    "title": "# Les Peuples autochtones de Taïwan au Président Xi Jinping de la Chine",
-    "subtitle": "#### Déclaration signée par 22 membres représentant 17 peuples autochtones dans la [Commission pour la justice historique et la justice transitionnelle autochtones](https://indigenous-justice.president.gov.tw/) de Taïwan, et souscrite par 9 autres personnalités respectivement ressortissants de 8 peuples autochtones de plus.",
+    "title": "Les Peuples autochtones de Taïwan au Président Xi Jinping de la Chine",
+    "subtitle": "Déclaration signée par 22 membres représentant 17 peuples autochtones dans la [Commission pour la justice historique et la justice transitionnelle autochtones](https://indigenous-justice.president.gov.tw/) de Taïwan, et souscrite par 9 autres personnalités respectivement ressortissants de 8 peuples autochtones de plus.",
     "source-label": "Source",
     "source-link": "https://g0v.hackmd.io/s/S1OqtBMzE",
     "1-1": "## M. Xi Jinping, vous ne nous connaissez pas. Vous ne connaissez donc pas Taïwan.",
@@ -94,8 +94,10 @@
 <template>
 <div class="page idg-xi">
   <div class="content">
-    <div class="markdown" v-html="markdown($t('title'))" />
-    <div class="markdown" v-html="markdown($t('subtitle'))" />
+    <div class="markdown">
+      <h1 v-html="markdown($t('title'))" />
+      <h4 v-html="markdown($t('subtitle'))" />
+    </div>
     <div class="source">
       <a :href="$t('source-link')" target="_blank">{{ $t('source-label') }}</a>
     </div>
@@ -122,7 +124,19 @@
 <script>
 import { knowsMarkdown } from '~/interfaces'
 export default {
-  mixins: [knowsMarkdown]
+  mixins: [knowsMarkdown],
+  head() {
+    return {
+      title: this.$t('title'),
+      meta: [
+        {
+          vmid: 'og-image',
+          property: 'og:image',
+          content: require('static/images/idg-xi/cover/' + this.$i18n.locale + '.jpg')
+        }
+      ]
+    }
+  }
 }
 </script>
 
