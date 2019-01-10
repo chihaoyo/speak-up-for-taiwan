@@ -1,3 +1,5 @@
+@import 'variables';
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
@@ -11,6 +13,18 @@ html {
   &[lang="fr-FR"] {
     line-height: 1.5;
   }
+  background-color: $color-background-default;
+  color: $color-black;
+}
+footer {
+  padding: 1rem;
+  background-color: $color-black;
+  color: white;
+  font-size: 0.875rem;
+  text-align: center;
+  > a, a:active, a:visited {
+    color: white;
+  }
 }
 
 *,
@@ -20,18 +34,18 @@ html {
   margin: 0;
 }
 
-a, a:hover, a:active, a:visited {
-  color: blue;
+a, a:active, a:visited {
+  color: $color-anchor-blue;
   text-decoration: none;
-}
-h1 {
-  font-size: 2.25rem;
-  margin: 1em 0;
 }
 .markdown {
   > p {
     font-size: 1.125rem;
     margin: 1em 0;
+  }
+  h1 {
+    font-size: 2.25rem;
+    margin: 1em 0 0.5em;
   }
   > h2 {
     font-size: 1.75rem;
@@ -40,6 +54,10 @@ h1 {
   > h3 {
     font-size: 1.25rem;
     margin: 1em 0 0.5em;
+  }
+  > h4 {
+    font-size: 1.25rem;
+    mrgin: 1em 0 0.5em;
   }
 }
 

@@ -2,10 +2,10 @@
 <template>
 <div class="navbar">
   <div class="home">
-    <nuxt-link :to="localePath('index')" class="button">#SpeakUpForTaiwan</nuxt-link>
+    <nuxt-link :to="localePath('index')" class="button"><b>#SpeakUpForTaiwan</b></nuxt-link>
   </div>
   <div class="languages">
-    <nuxt-link key="tw" :to="switchLocalePath('tw')" class="button">華</nuxt-link>
+    <nuxt-link key="tw" :to="switchLocalePath('tw')" class="button">台</nuxt-link>
     <nuxt-link key="jp" :to="switchLocalePath('ja')" class="button">日</nuxt-link>
     <nuxt-link key="en" :to="switchLocalePath('en')" class="button">Eng</nuxt-link>
     <nuxt-link key="fr" :to="switchLocalePath('fr')" class="button">Fra</nuxt-link>
@@ -14,14 +14,16 @@
 </template>
 
 <style lang="scss">
+@import 'assets/variables';
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
-  border-bottom: 0.25rem black solid;
-  background-color: rgba(white, 0.90);
+  border-bottom: 0.25rem $color-black solid;
+  background-color: rgba($color-white, 0.90);
   > .home {
     flex-grow: 1;
   }
