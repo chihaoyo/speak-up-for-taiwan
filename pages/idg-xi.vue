@@ -110,6 +110,6 @@ export default {
 
 <style lang="scss">
 .page.idg-xi {
-
+  font-size: 20px;
 }
 </style>
