@@ -28,8 +28,33 @@
 export default {
   head() {
     return {
-      title: '#SpeakUpForTaiwan'
+      title: '#SpeakUpForTaiwan',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Speak up for Taiwan.'
+        }
+      ]
     }
   }
 }
 </script>
+
+<style lang="scss">
+@import 'assets/variables';
+
+.page.index {
+  > ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    > li {
+      max-width: 16rem;
+      padding: 1rem;
+      background: $color-white;
+    }
+  }
+}
+</style>
