@@ -198,6 +198,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import 'assets/variables';
+
 .page.idg-xi {
   background: linear-gradient(#9BCAFE, #D7E9E9, #F7DFBC);
   > .content {
@@ -220,18 +222,22 @@ export default {
   }
   > .yushan-image-source {
     position: fixed;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1px;
     font-size: 0.5rem;
-    color: white;
+    color: $color-white;
     opacity: 0.65;
   }
   > .github {
     position: fixed;
-    bottom: 1rem;
-    left: 1rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1px;
     font-size: 0.5rem;
-    color: white;
+    color: $color-white;
     opacity: 0.65;
   }
   padding-bottom: 50%;
@@ -243,19 +249,19 @@ export default {
   @media (min-aspect-ratio: 1/1) {
     padding-bottom: 40%;
     > .yushan {
-      transform: translateY(30%);
+      transform: translateY(31.25%);
     }
   }
   @media (min-aspect-ratio: 3/2) {
     padding-bottom: 30%;
     > .yushan {
-      transform: translateY(40%);
+      transform: translateY(42.5%);
     }
   }
   @media (min-aspect-ratio: 8/5) {
     padding-bottom: 20%;
     > .yushan {
-      transform: translateY(50%);
+      transform: translateY(53.75%);
     }
   }
 }
