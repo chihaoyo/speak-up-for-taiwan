@@ -122,9 +122,8 @@
     <div class="markdown" v-html="markdown($t('6-1'))" />
     <div class="markdown" v-html="markdown($t('6-2'))" />
   </div>
-  <div class="yushan">
-    <img src="/images/idg-xi/yushan.png">
-  </div>
+  <img class="yushan" src="/images/idg-xi/yushan.png">
+  <a class="yushan-image-source" href="https://commons.wikimedia.org/wiki/File:玉山主峰_02.jpg" target="_blank">Image: Dragons70c CC BY-SA 4.0</a>
 </div>
 </template>
 
@@ -154,6 +153,7 @@ export default {
 
 <style lang="scss">
 .page.idg-xi {
+  background: linear-gradient(#9BCAFE, #D7E9E9, #F7DFBC);
   > .content {
     max-width: 40rem;
     margin: 0 1rem;
@@ -171,9 +171,14 @@ export default {
     bottom: 0;
     left: 0;
     width: 100%;
-    > img {
-      width: 100%;
-    }
+  }
+  > .yushan-image-source {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.5rem;
+    color: white;
+    opacity: 0.5;
   }
   padding-bottom: 50%;
   @media (min-aspect-ratio: 5/8) {
