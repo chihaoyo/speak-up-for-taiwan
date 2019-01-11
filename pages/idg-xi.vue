@@ -4,6 +4,7 @@
   "tw": {
     "title": "台灣原住民族致中國習近平主席",
     "subtitle": "台灣[原住民族歷史正義與轉型正義委員會](https://indigenous-justice.president.gov.tw/)代表十七族之二十二位代表及委員會外代表八族之九位代表共同聲明",
+    "description": "台灣是原住民族的傳統領域，也是原住民族世世代代用生命守護的祖靈土地，不是中國的領土。",
     "source-label": "來源",
     "source-link": "https://www.facebook.com/IndigenousSbalay/posts/2020282421360818",
     "1-1": "## 習近平先生，你不認識我們，因此你不認識台灣。",
@@ -26,6 +27,7 @@
   "ja": {
     "title": "台湾の原住民族から中国国家主席習近平へ",
     "subtitle": "台湾[原住民族歴史正義と転型正義委員会](https://indigenous-justice.president.gov.tw/)からの17原住民族22人代表と委員会の外の8原住民族9人代表の共同声明",
+    "description": "台湾は原住民族の伝統領域であり､原住民族が先祖代々その生命で守ってきた祖霊の土地です｡したがって中国の領土ではありません｡",
     "source-label": "來源",
     "source-link": "https://www.facebook.com/IndigenousSbalay/photos/a.1549619535093778/2023061521082908/",
     "1-1": "## 習近平さま、あなたは私たちのことを知りません、だからあなたは台湾のことを知りません。",
@@ -48,6 +50,7 @@
   "en": {
     "title": "Indigenous Peoples of Taiwan to President Xi Jinping of China",
     "subtitle": "Declaration signed by 22 members representing 17 indigenous peoples in the [Indigenous Historical Justice and Transitional Justice Committee](https://indigenous-justice.president.gov.tw/) of Taiwan, and subscribed by 9 promenent members of 8 more indigenous peoples.",
+    "description": "Taiwan is the sacred land where generations of our ancestors have lived and protected with their lives. It has never belonged to China.",
     "source-label": "Source",
     "source-link": "https://medium.com/@chihaoyo/4469d1a3bde6",
     "1-1": "## Mr. Xi Jinping, you do not know us, so you do not know Taiwan.",
@@ -70,6 +73,7 @@
   "fr": {
     "title": "Les Peuples autochtones de Taïwan au Président Xi Jinping de la Chine",
     "subtitle": "Déclaration signée par 22 membres représentant 17 peuples autochtones dans la [Commission pour la justice historique et la justice transitionnelle autochtones](https://indigenous-justice.president.gov.tw/) de Taïwan, et souscrite par 9 autres personnalités respectivement ressortissants de 8 peuples autochtones de plus.",
+    "description": "Taïwan est le territoire traditionnel et coutumier des peuples autochtones, et que c’est le pays des esprits de nos ancêtres, à la défense duquel nos peuples ont, de génération en génération, dédié leurs vies. Ce territoire n’est donc pas chinois.",
     "source-label": "Source",
     "source-link": "https://g0v.hackmd.io/s/S1OqtBMzE",
     "1-1": "## M. Xi Jinping, vous ne nous connaissez pas. Vous ne connaissez donc pas Taïwan.",
@@ -133,7 +137,12 @@ export default {
       title: this.$t('title'),
       meta: [
         {
-          vmid: 'og-image',
+          hid: 'description',
+          name: 'description',
+          content: this.$t('description')
+        },
+        {
+          hid: 'og-image',
           property: 'og:image',
           content: require('static/images/idg-xi/cover/' + this.$i18n.locale + '.jpg')
         }
