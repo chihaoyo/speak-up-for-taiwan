@@ -22,7 +22,6 @@
   left: 0;
   width: 100%;
   display: flex;
-  border-bottom: 0.25rem $color-black solid;
   background-color: rgba($color-white, 0.90);
   > .home {
     flex-grow: 1;
