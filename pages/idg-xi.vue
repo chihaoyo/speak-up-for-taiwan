@@ -124,6 +124,7 @@
   </div>
   <img class="yushan" src="/images/idg-xi/yushan.png">
   <a class="yushan-image-source" href="https://commons.wikimedia.org/wiki/File:玉山主峰_02.jpg" target="_blank">Image: Dragons70c CC BY-SA 4.0</a>
+  <a class="github" href="https://github.com/chihaoyo/speak-up-for-taiwan/" target="_blank">GitHub</a>
 </div>
 </template>
 
@@ -178,7 +179,15 @@ export default {
     right: 1rem;
     font-size: 0.5rem;
     color: white;
-    opacity: 0.5;
+    opacity: 0.65;
+  }
+  > .github {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 0.5rem;
+    color: white;
+    opacity: 0.65;
   }
   padding-bottom: 50%;
   @media (min-aspect-ratio: 5/8) {
