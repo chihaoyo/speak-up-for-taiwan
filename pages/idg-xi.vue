@@ -42,7 +42,7 @@
     "4-3": "もしいつの日か、中国がその歪曲した歴史観、民族観、国家観を放棄し、無理やり私たちの父母になろうとするのではなく、私たちにとって善良なる隣人となるのを厭わなくなれば、その時は、私たちは心を込めて盃を掲げ、中国という隣人のために一杯の小米酒で乾杯することでしょう。pasola xmnx na mansonsou!（「あなたの息吹がいつも清々しいものでありますように」というツォ族語の意味）",
     "5-1": "### 声明人",
     "5-2": "浦忠成（ツォ族）、馬千里 Mateli Sawawan（プユマ族）、Magaitan·Lhkatafatu（サオ族）、伍麗華 Saidai Tarovecahe（ルカイ族）、夏錦龍 Obay·Ataw·Hayawan（サイシャット族）、Eleng Tjaljimaraw（パイワン族）、鴻義章 Upay Kanasaw（アミ族）、曾華德 集福祿萬（パイワン族）、林碧霞 Afas Falah（アミ族）、帖喇･尤道 Teyra Yudaw（タロコ族）、伊斯坦大･貝雅夫･正福 Istanda·Paingav·Cengfu（ブヌン族）、伊央．撒耘 Yiyang Sayion（サキザヤ族）、吳新光 voe-uyongana（ツォ族）、潘經偉（マカタオ族）、孔賢傑 ’Avia Kanpanena（カナカナブ富族）、Uma Talavan 萬淑娟（シラヤ族）、潘杰 Watan Teymu（セデック族）、陳金萬（ケタガラン族）、謝宗修 Buya·Batu（クバラン族）、葛新雄（サアロア族）、蘇美琅 Savi Takisvilainan（ブヌン族）、吳雪月（アミ族）",
-    "6-1": "### 他の声明人",
+    "6-1": "### 委員会の外の声明人",
     "6-2": "Omi Wilang 歐蜜･偉浪（Atayal）、王商益 Kaisanan Ahuan（Taokas）、乃俊廷（Babuza）、張麗盆（Papora）、潘明燈（Papora）、巫瑞晞（Arikun）、胡雋婕 Snglang（Lloa）、潘隆川（Kaxabu）、希婻･瑪飛洑（Tao/Yami）"
   },
   "en": {
@@ -64,7 +64,7 @@
     "4-3": "If one day China abandons its distorted understanding of history, nationality, and statehood; if one day China becomes our friendly neighbor and stops claiming its forceful “parenthood” upon us; only then will we propose a toast to China, our neighbor, with a cup of millet wine in all our sincerity. Pasola xmnx na mansonsou! (May every time you breathe, you breathe smoothly; Tsou)",
     "5-1": "### Signatories",
     "5-2": "浦忠成 (Tsou), 馬千里 Mateli Sawawan (Pinuyumayan), Magaitan·Lhkatafatu (Thao), 伍麗華 Saidai Tarovecahe (Rukai), 夏錦龍 Obay·Ataw·Hayawan (Saisiyat), Eleng Tjaljimaraw (Paiwan), 鴻義章 Upay Kanasaw (Amis), 曾華德 集福祿萬 (Paiwan), 林碧霞 Afas Falah (Amis), 帖喇･尤道 Teyra Yudaw (Truku), 伊斯坦大･貝雅夫･正福 Istanda·Paingav·Cengfu (Bunun), 伊央･撒耘 Yiyang Sayion (Sakizaya), 吳新光 voe-uyongana (Tsou), 潘經偉 (Makatao), 孔賢傑 ’Avia Kanpanena (Kanakanavu), 潘杰 Watan Teymu (Sediq), 謝宗修 Buya·Batu (Kavalan), 葛新雄 (Hla’alua), 蘇美琅 Savi Takisvilainan (Bunun), 吳雪月 (Amis), Uma Talavan 萬淑娟 (Siraya, representative of Southern Pingpu), 陳金萬 (Ketagalan, representative of Northern Pingpu)",
-    "6-1": "Non-committee-member signatories",
+    "6-1": "### Non-committee-member signatories",
     "6-2": "Omi Wilang 歐蜜･偉浪 (Atayal), 王商益 Kaisanan Ahuan (Taokas), 乃俊廷 (Babuza), 張麗盆 (Papora), 潘明燈 (Papora), 巫瑞晞 (Arikun), 胡雋婕 Snglang (Lloa), 潘隆川 (Kaxabu), 希婻･瑪飛洑 (Tao/Yami)"
   },
   "fr": {
@@ -118,6 +118,9 @@
     <div class="markdown" v-html="markdown($t('6-1'))" />
     <div class="markdown" v-html="markdown($t('6-2'))" />
   </div>
+  <div class="yushan">
+    <img src="/images/idg-xi/yushan.png">
+  </div>
 </div>
 </template>
 
@@ -142,17 +145,49 @@ export default {
 
 <style lang="scss">
 .page.idg-xi {
-  font-size: 20px;
   > .content {
-    max-width: 36rem;
+    max-width: 40rem;
     margin: 0 1rem;
-    @media (min-width: 38rem) {
+    @media (min-width: 42rem) {
       margin-left: auto;
       margin-right: auto;
     }
     > .source {
       margin: 0.875rem 0;
       font-size: 0.875rem;
+    }
+  }
+  > .yushan {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    > img {
+      width: 100%;
+    }
+  }
+  padding-bottom: 50%;
+  @media (min-aspect-ratio: 5/8) {
+    > .yushan {
+      transform: translateY(20%);
+    }
+  }
+  @media (min-aspect-ratio: 1/1) {
+    padding-bottom: 40%;
+    > .yushan {
+      transform: translateY(30%);
+    }
+  }
+  @media (min-aspect-ratio: 3/2) {
+    padding-bottom: 30%;
+    > .yushan {
+      transform: translateY(40%);
+    }
+  }
+  @media (min-aspect-ratio: 8/5) {
+    padding-bottom: 20%;
+    > .yushan {
+      transform: translateY(50%);
     }
   }
 }

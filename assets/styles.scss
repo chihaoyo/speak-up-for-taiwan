@@ -33,6 +33,9 @@ footer {
   box-sizing: border-box;
   margin: 0;
 }
+img {
+  display: block;
+}
 
 a, a:active, a:visited {
   color: $color-anchor-blue;
@@ -40,24 +43,24 @@ a, a:active, a:visited {
 }
 .markdown {
   > p {
-    font-size: 1.125rem;
+    font-size: 1.125em;
     margin: 1em 0;
   }
   h1 {
-    font-size: 2.25rem;
+    font-size: 2.25em;
     margin: 1em 0 0.5em;
   }
   > h2 {
-    font-size: 1.75rem;
+    font-size: 1.75em;
     margin: 1em 0 0.5em;
   }
   > h3 {
-    font-size: 1.25rem;
+    font-size: 1.25em;
     margin: 1em 0 0.5em;
   }
   > h4 {
-    font-size: 1.25rem;
-    mrgin: 1em 0 0.5em;
+    font-size: 1.25em;
+    margin: 1em 0 0.5em;
   }
 }
 
