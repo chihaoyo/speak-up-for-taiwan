@@ -12,6 +12,9 @@
   },
   "fr": {
     "idg-xi": "Les Peuples autochtones de Taïwan au Président Xi Jinping de la Chine"
+  },
+  "fi": {
+    "idg-xi": "Taiwanin alkuperäiskansojen vastaus Kiinan presidentti Xi Jinpingille"
   }
 }
 </i18n>
