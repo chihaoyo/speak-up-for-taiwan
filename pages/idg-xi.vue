@@ -132,7 +132,7 @@
   "fi": {
     "title": "Taiwanin alkuperäiskansojen vastaus Kiinan presidentti Xi Jinpingille",
     "subtitle": "Lausunnon allekirjoitti 22 Taiwanin [alkuperäiskansojen historiallisen ja siirtymävaiheen oikeuden komitean](https://indigenous-justice.president.gov.tw/) jäsentä, jotka edustavat 17 eri alkuperäiskansaa. Lisäksi nimellään tukijoiksi ilmoittautui yhdeksän tunnettua alkuperäiskansojen edustajaa kahdeksasta eri kansasta.",
-    "description": "",
+    "description": "Taiwan on alkuperäiskansojensa perinteinen asuinalue ja esi-isiemme henkien maa, jota olemme sukupolvesta toiseen suojelleet elämällämme. Se ei ole osa Kiinaa.",
     "source-label": "Source",
     "source-link": "https://g0v.hackmd.io/s/B1e_UHvf4",
     "1-1": "## Herra Xi Jinping, sinä et tunne meitä, etkä siksi tunne myöskään Taiwania.",
