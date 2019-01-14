@@ -9,6 +9,7 @@
     <nuxt-link key="jp" :to="switchLocalePath('ja')" class="button">日</nuxt-link>
     <nuxt-link key="en" :to="switchLocalePath('en')" class="button">Eng</nuxt-link>
     <nuxt-link key="fr" :to="switchLocalePath('fr')" class="button">Fra</nuxt-link>
+    <nuxt-link key="fi" :to="switchLocalePath('fi')" class="button">Fin</nuxt-link>
   </div>
 </div>
 </template>
@@ -22,6 +23,7 @@
   left: 0;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   background-color: rgba($color-white, 0.90);
   > .home {
     flex-grow: 1;

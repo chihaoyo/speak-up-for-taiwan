@@ -128,6 +128,38 @@
     "5-2": "浦忠成 [Pasuya Poiconu] (Tsou/cou), 馬千里 Mateli Sawawan (Pinuyumayan), Magaitan．Lhkatafatu (Thao), 伍麗華 Saidai Tarovecahe (Rukai), 夏錦龍 Obay·Ataw·Hayawan (Saisiyat), Eleng Tjaljimaraw (Paiwan), 鴻義章 Upay Kanasaw (Amis/Pangcah), 曾華德 集福祿萬 (Paiwan), 林碧霞 Afas Falah (Amis/Pangcah), 帖喇･尤道 Teyra Yudaw (Truku), 伊斯坦大･貝雅夫･正福 Istanda·Paingav·Cengfu (Bunun), 伊央･撒耘 Yiyang Sayion (Sakizaya), 吳新光 voe-uyongana (Tsou/cou), 潘經偉 (Makatao), 孔賢傑 Avia Kanpanena (Kanakanavu), Uma Talavan 萬淑娟 (Siraya), 潘杰 Watan Teymu (Sediq/Sejiq), 陳金萬 (Ketagalan), 謝宗修 Buya·Batu (Kavalan), 葛新雄 (Hla’alua), 蘇美琅 Savi Takisvilainan (Bunun), 吳雪月 (Amis/Pangcah）",
     "6-1": "### Souscriptrices et souscripteurs non-membres",
     "6-2": "Omi Wilang 歐蜜･偉浪 (Atayal), 王商益 Kaisanan Ahuan (Taokas), 乃俊廷 (Babuza), 張麗盆 (Papora), 潘明燈 (Papora), 巫瑞晞 (Arikun), 胡雋婕 Snglang (Lloa), 潘隆川 (Kaxabu), 希婻･瑪飛洑 (Tao/Yami)"
+  },
+  "fi": {
+    "title": "Taiwanin alkuperäiskansojen vastaus Kiinan presidentti Xi Jinpingille",
+    "subtitle": "Lausunnon allekirjoitti 22 Taiwanin [alkuperäiskansojen historiallisen ja siirtymävaiheen oikeuden komitean](https://indigenous-justice.president.gov.tw/) jäsentä, jotka edustavat 17 eri alkuperäiskansaa. Lisäksi nimellään tukijoiksi ilmoittautui yhdeksän tunnettua alkuperäiskansojen edustajaa kahdeksasta eri kansasta.",
+    "description": "",
+    "source-label": "Source",
+    "source-link": "https://g0v.hackmd.io/s/B1e_UHvf4",
+    "1-1": "## Herra Xi Jinping, sinä et tunne meitä, etkä siksi tunne myöskään Taiwania.",
+    "1-2": "Me olemme Taiwanin alkuperäiskansat, jotka ovat eläneet tällä Taiwaniksi kutsutulla palalla Äiti Maata yli 6000 vuotta, emmekä yksi Kiinan kansakunnan vähemmistökansoista.",
+    "1-3": "Meidän esi-isämme ovat jättäneet selkeästi luettavan tarinan Taiwanin jylhiin vuoriin, metsiin, tasankoihin, laaksoihin, puroihin, saariin ja mereen: Taiwan on alkuperäiskansojensa perinteinen asuinalue ja esi-isiemme henkien maa, jota olemme sukupolvesta toiseen suojelleet elämällämme. Se ei ole osa Kiinaa.",
+    "1-4": "Taiwanin alkuperäiskansat ovat todistaneet saarellemme saapuneiden espanjalaisten, hollantilaisten, Koxingan kiinalaisvalloittajien, Qing-dynastian, Japanin ja Kiinan tasavallan sanat ja teot. Me teimme liiton hollantilaisten kanssa ja kirjoitimme rauhansopimuksen amerikkalaisten kanssa. Vastustimme jokaista maahamme hyökännyttä ulkopuolista kansaa ja imperialismia. Kärsimme siirtomaavaltojen aseellisesta sorrosta ja autoritarismista.",
+    "1-5": "Me alkuperäiskansat, joita ennen kutsuttiin barbaareiksi ja nykyään Taiwanin alkuperäisiksi asukkaiksi, olemme erityisesti työntäneet maatamme muutokseen kohti ihmisoikeuksien, demokratian ja vapauden tietä. Tuhansien vuosien jälkeen me olemme yhä täällä, luopumatta koskaan luonnollisesta suvereniteetistamme.",
+    "2-1": "## Herra Xi Jinping, sinä et ymmärrä kunniallisuutta, ja siksi olet erehtynyt mahdistasi.",
+    "2-2": "Me emme suinkaan ole tyytyväisiä tässä suvereenissa Taiwanin valtiossa, joka on meidän Äiti Maamme päälle perustettu, sillä se on vasta hiljattain alkanut pitää arvossa alkuperäiskansojen historiallista oikeutta ja siirtymävaiheen oikeutta. Myöskin Taiwanin saaren moninaiset kansallisuudet, kulttuurit ja historiantulkinnat ovat vasta hiljattain alkaneet saada tunnustusta tältä maalta.",
+    "2-3": "Mutta tämä on myös maa, jonka me olemme yhdessä muiden taiwanilaisiksi itsensä tunnustavien kansojen kanssa työllämme muovanneet.",
+    "2-4": "Me olemme itse päättäneet, minkälaisen valtion haluamme Äiti Maan päälle rakentaa, ja kehittäneet sitä positiiviseen suuntaan. Tätä on kunniallisuus. Oli kyseessä sitten yli 300-henkinen kanakanavun kansa tai yli 210 000-henkinen amisin kansa, jokaisella alkuperäiskansallamme on tasa-arvoinen itsemääräämisoikeus. Tätä on kunniallisuus.",
+    "2-5": "Herra Xi Jinping, joka edustaa Kiinan hallituksen markkinoimia monokulttuurisia arvoja, yhtenäisyyttä ja voimaa, ei suinkaan ole mahtava tai kadehdittava.",
+    "2-6": "Nöyryys maata kohtaan, muun elämän kunnioitus ja muiden kansojen kanssa rauhassa eläminen – ne ovat meidän uskomme.",
+    "3-1": "## Herra Xi Jinping, muita ihmisiä ei saisi satuttaa vaikka he olisivat kuinka erilaisia.",
+    "3-2": "Herra Xi Jinpingin puheet Kiinan hallituksen edustajana painottavat aseelliseen voimaan tukeutumista vaatiessaan Taiwanin yhdistämistä Kiinaan ja “yksi maa, kaksi järjestelmää” -periaatteen toteuttamista. Samalla hän sanoo, että ei vahingoita ihmisiä, jotka ovat kiinalaisia kuten hän itse.",
+    "3-3": "Väkivalta ei kuitenkaan ole oikein, oli sen kohteena sitten kiinalainen tai ei. Kenenkään ei kuuluisi joutua vahingoitetuksi.",
+    "3-4": "Me olemme jo nähneet, kuinka tiibetiläiset ja uiguurit ovat “kiinalaisiksi” muututtuaan joutuneet kulttuurisen, kielellisen ja uskonnollisen sukupuuton kohteiksi “autonomisilla alueillaan”. Olemme nähneet, kuinka “yksi maa, kaksi järjestelmää” -periaatteen alla elävä Hongkongin kansa on nopeasti menettämässä demokratiansa ja vapautensa. Olemme nähneet, kuinka Kiinan kansa ei pysty edes puhumaan perustavista ihmisoikeuksistaan, saatika puolustamaan niitä.",
+    "3-5": "Herra Xi, väkivalta ei tuo rauhaa - Misawacu hanizaay masasu takid (”Se, joka kiusaa muita, saa maistaa omaa lääkettään” – sakizaya-kansan sanonta).",
+    "3-6": "Ole hyvä ja johdata maasi kohti todellista sivistystä, lopeta Taiwanin kansan väkivallalla uhkailu ja keskitä voimasi siihen, että Kiinan kansa saisi nauttia ihmisoikeuksista ja vapaudesta.",
+    "4-1": "##Herra Xi Jinping, Taiwanin alkuperäiskansat ja taiwanilainen identiteetti torjuvat uhkaukset periksi antamatta.",
+    "4-2": "Taiwanin valtion tulevaisuus on kaikkien Äiti Maan kansojen oma päätös, mukaan lukien Taiwanin alkuperäiskansojen. Näin ollen, yksikään hallitus, poliittinen puolue tai ryhmittymä ei voi sopia vieraan vallan tai valtion kanssa alkuperäiskansojen perinteisten asuinalueiden liittämisestä toisen valtion alueeseen tai hallinnan piiriin ilman alkuperäiskansojen kollektiivisesti antamaa itsenäisesti päätettyä lupaa.",
+    "4-3": "Tämä on päätöksemme Äiti Maan suojelemiseksi, sillä Taiwanin alkuperäiskansat ovat selvinneet jo tuhansia vuosia, ja aiomme selvitä jatkossakin.",
+    "4-4": "Kenties joskus koittaa se päivä, kun Kiina luopuu vääristyneestä historiantulkinnastaan, kansallisuusnäkemyksistään ja valtionäkemyksistään, sekä suostuu tyytyväisenä olemaan hyväntahtoinen naapurimme sen sijaan, että yrittää väkisin päästä meidän vanhemmaksemme. Silloin me voimme vilpittömin sydämin kohottaa maljan hirssiviiniä naapurillemme Kiinalle. Pasola xmnx na mansonsou! (”Olkoon jokainen henkäyksesi vaivaton” – tsou-kansan sananlasku.)",
+    "5-1": "### Lausunnon allekirjoittajat (kansallisuuksineen)",
+    "5-2": "P’u Chung-ch’eng (tsou), Mateli Sawawan (puyuma), Magaitan. Lhkatafatu (thao), Saidai Tarovecahe (rukai), Obay. Ataw. Hayawan (saisiyat), Eleng Tjaljimaraw (paiwan), Upay Kanasaw (amis), Tsêng Hua-tê Chifuluwan (paiwan), Afas Falah (amis), Teyra Yudaw (truku), Istanda. Paingav. Cengfu (bunun), Yiyang Sayion (sakizaya), Wu Hsin-kuang Voe-uyongana (tsou), P’an Ching-Wei (makatao), ’Avia Kanpanena (kanakanavu), Uma Talavan (siraya), Watan Teymu (seediq), Ch’en Chin-wan (ketagalan), Buya. Batu (kavalan), Ko Hsin-hsiung (saaroa), Savi Takisvilainan (bunun), Wu Hsüe-yüeh (amis)",
+    "6-1": "### Muut tukijat",
+    "6-2": "Omi Wilang (atayal), Kaisanan Ahuan (taokas), Nai Chün-t’ing (babuza), Chang Li-p’ên (papora), P’an Ming-têng (papora), Wu Jui-hsi (arikun), Hu Chüan-chieh Snglang (lloa), P’an Lung-ch’üan (kaxabu), Hsinan Mafeifu (tao)"
   }
 }
 </i18n>
@@ -135,7 +167,7 @@
 <div class="page idg-xi">
   <div class="content">
     <div class="markdown">
-      <h1 v-html="markdown($t('title'))" />
+      <h1 v-html="$t('title')" />
       <h4 v-html="markdown($t('subtitle'))" />
     </div>
     <div class="source">
