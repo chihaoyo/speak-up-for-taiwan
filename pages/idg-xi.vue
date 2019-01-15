@@ -67,7 +67,7 @@
   },
   "en": {
     "title": "Indigenous Peoples of Taiwan to President Xi Jinping of China",
-    "subtitle": "Declaration signed by 22 members representing 17 indigenous peoples in the [Indigenous Historical Justice and Transitional Justice Committee](https://indigenous-justice.president.gov.tw/) of Taiwan, and subscribed by 9 promenent members of 8 more indigenous peoples.",
+    "subtitle": "Declaration signed by 22 members representing 17 indigenous peoples in the [Indigenous Historical Justice and Transitional Justice Committee](https://indigenous-justice.president.gov.tw/) of Taiwan, and subscribed by 9 prominent members of 8 more indigenous peoples.",
     "description": "Taiwan is the sacred land where generations of our ancestors have lived and protected with their lives. It has never belonged to China.",
     "source-label": "Source",
     "source-link": "https://medium.com/@chihaoyo/4469d1a3bde6",
