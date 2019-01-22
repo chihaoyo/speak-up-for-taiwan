@@ -160,6 +160,38 @@
     "5-2": "P’u Chung-ch’eng (tsou), Mateli Sawawan (puyuma), Magaitan. Lhkatafatu (thao), Saidai Tarovecahe (rukai), Obay. Ataw. Hayawan (saisiyat), Eleng Tjaljimaraw (paiwan), Upay Kanasaw (amis), Tsêng Hua-tê Chifuluwan (paiwan), Afas Falah (amis), Teyra Yudaw (truku), Istanda. Paingav. Cengfu (bunun), Yiyang Sayion (sakizaya), Wu Hsin-kuang Voe-uyongana (tsou), P’an Ching-Wei (makatao), ’Avia Kanpanena (kanakanavu), Uma Talavan (siraya), Watan Teymu (seediq), Ch’en Chin-wan (ketagalan), Buya. Batu (kavalan), Ko Hsin-hsiung (saaroa), Savi Takisvilainan (bunun), Wu Hsüe-yüeh (amis)",
     "6-1": "### Muut tukijat",
     "6-2": "Omi Wilang (atayal), Kaisanan Ahuan (taokas), Nai Chün-t’ing (babuza), Chang Li-p’ên (papora), P’an Ming-têng (papora), Wu Jui-hsi (arikun), Hu Chüan-chieh Snglang (lloa), P’an Lung-ch’üan (kaxabu), Hsinan Mafeifu (tao)"
+  },
+  "sv": {
+    "title": "Taiwans ursprungsfolk till Kinas president Xi Jinping",
+    "subtitle": "Deklaration signerad av 22 medlemmar, representerade av 17 ursprungsfolk, i [kommittén för historisk rättvisa och övergångsrättvisa för ursprungsfolk](https://indigenous-justice.president.gov.tw/) i Taiwan samt undertecknad av nio framstående medlemmar av åtta ytterligare ursprungsfolk. ",
+    "description": "Taiwan är det heliga land där våra förfäder har bott i många generationer, det land de skyddat med sina liv. Det tillhör inte Kina.",
+    "source-label": "Source",
+    "source-link": "https://g0v.hackmd.io/s/BJI-pvVXV",
+    "1-1": "## Herr Xi Jinpig, ni känner inte oss, och således känner ni inte Taiwan.",
+    "1-2": "Vi är Taiwans ursprungsfolk, och vi har levt i vårt moderland Taiwan i över 6000 år. Vi är inte de s.k. “etniska minoritetsfolken” inom “nationen Kina”.",
+    "1-3": "Våra förfäders berättelser om bergen Jade, Alishan, Kavulungan, Beinan och Dulan; om skogar, grässlätter, dalar, sjöar, öar och hav i Taiwan vittnar om att Taiwan är- och alltid har varit - det traditionella territoriet för detta lands ursprungsfolk. Taiwan är det heliga land där våra förfäder har bott i många generationer, det land de skyddat med sina liv. Det tillhör inte Kina.",
+    "1-4": "Vi, Taiwans ursprungsfolk, har bevittnat gärningar och ord av de som kom till denna ö, inberäknat spanjorer, holländare, Koxingas kungadöme, Qingdynastin, japanerna och republiken Kina. Vi undertecknade fördrag med holländarna och fredsavtal med amerikanerna. Vi har kämpat mot imperialismen och varje  utländsk intrång i vårt land. Vi har lidit under militärt förtryck  från koloniala och auktoritära regimer.",
+    "1-5": "Vi som en gång kallades “barbarer”, är nu erkända som Taiwans ursprungliga ägare. Vi, Taiwans ursprungsfolk, har drivit denna nation mot respekt för mänskliga rättigheter, demokrati och frihet. Efter tusentals år är vi  ännu här. Vi har aldrig gett upp vår rättmätiga begäran om ett självständigt Taiwan.",
+    "2-1": "## Herr Xi Jinping, du förstår inte värdighet, därför missförstår du storhet.",
+    "2-2": "Vi är verkligen inte tillfredsställda med den nuvarande situationen i Taiwan, som är en suverän stat som har byggts upp på vårt fosterland. Staten har först nyligen börjat rikta uppmärksamhet mot historisk rättvisa och övergångsrättvisa för ursprungsfolken. Den har endast inlett erkännandet av det egna landets etniska och kulturella mångfald samt för olika förståelse för historia bland dess mångfald av folk.",
+    "2-3": "Likväl är Taiwan också en nation som vi strävar efter att upprätta tillsammans med andra folk som erkänner landets säregna identitet. Taiwan är en nation bestående av olika folk som försöker förstå varandras plågsamma förflutna liksom en nation där vi kan berätta våra egna berättelser med våra egna språk.",
+    "2-4": "Tillsammans bestämmer vi vilket land Taiwan borde vara och vi arbetar kraftfullt för att förbättra dess nuvarande situation. Det är värdighet. Oberoende om det är Kanakanavu folkgruppen med omkring 300 medlemmar eller Amis med en befolkning på mer än 210 000 har var och en av oss som tillhör ursprungsfolken lika rätt till självstyre. Det är värdighet.",
+    "2-5": "Vi delar inte den monokulturalism, likriktning och hegemoni som förordas av dig herr Xi, på den kinesiska regeringens vägnar. Det är långt ifrån storhet. Det har ingenting att göra med det vi eftersträvar.",
+    "2-6": "Att vara ödmjuk inför landet, respektera andras liv, leva tillsammans med andra grupper av mänskor med strävan om en gemensam nytta – det är värderingar vi tror på.",
+    "3-1": "## Herr Xi Jinping, folk borde inte skada varandra, oavsett deras skillnader.",
+    "3-2": "I talet Ni höll i Kinas regerings namn, insisterade ni på ett införlivande av Taiwan med genomförandet av “One Country, Two Systems” principen och med stöd av Kinas militära styrka. Ni framställde också att de som är “kinesiska” inte kommer att skadas av detta.",
+    "3-3": "Allt våld är emellertid fel, och ingen skall ta skada på grund av sin identitet eller tro, kinesisk eller någon annan.",
+    "3-4": "Vi har bevittnat hur tibetanerna och uyghurerna i “autonoma regioner” har drivits till kulturell, språklig och religiös utrotning efter att de blivit “kinesiska”. Vi har bevittnat att folket i Hongkong snabbt förlorade både sin frihet och sin demokrati under “One Country, Two Systems”. Vi har bevittnat hur Kinas eget folk inte ens kan uttrycka sig om eller försvara sina grundläggande mänskliga rättigheter.",
+    "3-5": "Herr Xi, tvång leder inte till fred. Som det gamla ordspråket av Sakizaya säger, Misawacu hanizaay masasu takid - de som mobbar andra kommer att få det samma tillbaka till sig själv.",
+    "3-6": "Vi uppmanar Er att bringa ert land sann storhet, att sluta hota Taiwans folk med tvång, och att sträva efter att förverkligöra mänskliga rättigheter och frihet till det kinesiska folket.",
+    "4-1": "## Herr Xi Jinping, vi de taiwanesiska ursprungsfolken kommer inte att hotas och kommer inte att göra några eftergifter.",
+    "4-2": "Taiwans framtid avgörs av de taiwanesiska ursprungsfolkens självbestämmande jämte hela vårt lands invånare. Ingen regering, politiskt parti eller organisation har rätten att förhandla med utländska makter med syfte att avträda traditionella territorier tillhörande Taiwans ursprungsfolk.",
+    "4-3": "Vi är sedan årtusenden tillbaka de utsedda förvaltarna av vårt fosterland, och kommer att fortsätta vara det.",
+    "4-4": "Om Kina en dag överger sin snäva syn på historia, nationalitet och nationell tillhörighet; Om Kina en dag blir en vänligt inställd granne och slutar påtvinga sitt “föräldraskap” på oss, Först då ska vi höja en skål hirsvin till Kina, vår granne, i största uppriktighet. Pasola xmnx na mansonsou! (Må varje ditt andetag vara obehindrat, Tsou)",
+    "5-1": "### Undertecknare",
+    "5-2": "P’u Chung-ch’eng (tsou), Mateli Sawawan (puyuma), Magaitan. Lhkatafatu (thao), Saidai Tarovecahe (rukai), Obay. Ataw. Hayawan (saisiyat), Eleng Tjaljimaraw (paiwan), Upay Kanasaw (amis), Tsêng Hua-tê Chifuluwan (paiwan), Afas Falah (amis), Teyra Yudaw (truku), Istanda. Paingav. Cengfu (bunun), Yiyang Sayion (sakizaya), Wu Hsin-kuang Voe-uyongana (tsou), P’an Ching-Wei (makatao), ’Avia Kanpanena (kanakanavu), Uma Talavan (siraya), Watan Teymu (seediq), Ch’en Chin-wan (ketagalan), Buya. Batu (kavalan), Ko Hsin-hsiung (saaroa), Savi Takisvilainan (bunun), Wu Hsüe-yüeh (amis)",
+    "6-1": "### Underteckningar av andra än kommittémedlemmar",
+    "6-2": "Omi Wilang (atayal), Kaisanan Ahuan (taokas), Nai Chün-t’ing (babuza), Chang Li-p’ên (papora), P’an Ming-têng (papora), Wu Jui-hsi (arikun), Hu Chüan-chieh Snglang (lloa), P’an Lung-ch’üan (kaxabu), Hsinan Mafeifu (tao)"
   }
 }
 </i18n>

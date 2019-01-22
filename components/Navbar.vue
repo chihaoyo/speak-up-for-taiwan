@@ -10,6 +10,7 @@
     <nuxt-link key="en" :to="switchLocalePath('en')" class="button">Eng</nuxt-link>
     <nuxt-link key="fr" :to="switchLocalePath('fr')" class="button">Fra</nuxt-link>
     <nuxt-link key="fi" :to="switchLocalePath('fi')" class="button">Fin</nuxt-link>
+    <nuxt-link key="sv" :to="switchLocalePath('sv')" class="button">Swe</nuxt-link>
   </div>
 </div>
 </template>

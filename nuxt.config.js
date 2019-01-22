@@ -43,6 +43,10 @@ module.exports = {
         {
           code: 'fi',
           iso: 'fi'
+        },
+        {
+          code: 'sv',
+          iso: 'sv'
         }
       ],
       defaultLocale: 'tw',

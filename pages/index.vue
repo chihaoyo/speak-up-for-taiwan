@@ -15,6 +15,9 @@
   },
   "fi": {
     "idg-xi": "Taiwanin alkuperäiskansojen vastaus Kiinan presidentti Xi Jinpingille"
+  },
+  "sv": {
+    "idg-xi": "Taiwans ursprungsfolk till Kinas president Xi Jinping"
   }
 }
 </i18n>
