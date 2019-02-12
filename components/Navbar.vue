@@ -7,6 +7,7 @@
   <div class="languages">
     <nuxt-link key="tw" :to="switchLocalePath('tw')" class="button">台</nuxt-link>
     <nuxt-link key="jp" :to="switchLocalePath('ja')" class="button">日</nuxt-link>
+    <nuxt-link key="ko" :to="switchLocalePath('ko')" class="button">한</nuxt-link>
     <nuxt-link key="en" :to="switchLocalePath('en')" class="button">Eng</nuxt-link>
     <nuxt-link key="fr" :to="switchLocalePath('fr')" class="button">Fra</nuxt-link>
     <nuxt-link key="fi" :to="switchLocalePath('fi')" class="button">Fin</nuxt-link>

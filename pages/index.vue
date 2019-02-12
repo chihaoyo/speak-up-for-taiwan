@@ -7,6 +7,9 @@
   "ja": {
     "idg-xi": "台湾の原住民族から中国国家主席習近平へ"
   },
+  "ko": {
+    "idg-xi": "대만 원주민들로부터 중국 시진핑 국가주석에게"
+  },
   "en": {
     "idg-xi": "Indigenous Peoples of Taiwan to President Xi Jinping of China"
   },

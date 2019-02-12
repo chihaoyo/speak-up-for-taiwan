@@ -33,6 +33,10 @@ module.exports = {
           iso: 'ja'
         },
         {
+          code: 'ko',
+          iso: 'ko'
+        },
+        {
           code: 'en',
           iso: 'en-US'
         },
